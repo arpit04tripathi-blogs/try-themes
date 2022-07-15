@@ -6,3 +6,7 @@
   link: /blog.html
 - name: Staff
   link: /staff.html
+- name: Tags
+  link: /tags.html
+- name: Categories
+  link: /categories.html

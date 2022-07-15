@@ -1,0 +1,11 @@
+---
+author: jill
+tags: categorizing post
+---
+Categories of a post work similar to the tags above:
+
+They can be defined via the front matter using keys category or categories (that follow the same logic as for tags)
+All categories registered in the site are exposed to Liquid templates via site.categories which can be iterated over (similar to the loop for tags above.)
+The similarity between categories and tags however, ends there.
+
+Unlike tags, categories for posts can also be defined by a post’s file path. Any directory above _post will be read-in as a category. For example, if a post is at path movies/horror/_posts/2019-05-21-bride-of-chucky.markdown, then movies and horror are automatically registered as categories for that post.
