@@ -1,0 +1,6 @@
+# 
+_site
+
+# jekyll
+.jekyll-metadata
+.jekyll-cache
